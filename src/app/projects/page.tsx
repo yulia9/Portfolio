@@ -105,7 +105,7 @@ const Projects = () => (
               <Image
                 className="m-2"
                 key={src}
-                src={src}
+                src={`${process.env.APP_URL}${src}`}
                 alt={item.title}
                 width={600}
                 height={600}
