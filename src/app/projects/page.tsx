@@ -69,7 +69,7 @@ const Projects = () => (
     style={styles.main}
   >
     <div className="fixed top-50 right-5 z-20 bg-white">
-      <TimeLine items={data} />
+      <TimeLine items={data} /> 
     </div>
     <ul>
       {data.map((item) => (

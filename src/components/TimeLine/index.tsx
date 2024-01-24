@@ -8,7 +8,17 @@ import {
   TimelineOppositeContent,
 } from "@mui/lab";
 
-const TimeLine = ({ items = [] }) => (
+type Item = {
+  title: string;
+  date: string;
+  anchor: string;
+}
+
+type TimeLineProps = {
+  items: Item[];
+}
+
+const TimeLine: React.FC<TimeLineProps> = ({ items = [] }) => (
   <Timeline position="alternate">
     {items.map(({ title, date, anchor }, index) => (
       <TimelineItem key={title}>
