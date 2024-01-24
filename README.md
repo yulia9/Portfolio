@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio 
 This is project for my CV
 
 
@@ -9,3 +9,5 @@ To install the project run:
 
 To run the project in dev mode:
 ## yarn dev
+
+Portfolio project is deployed here https://yulia9.github.io/Portfolio/
