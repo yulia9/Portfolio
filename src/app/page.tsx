@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       <div>
         <Image
-          src="/2024-01-19 13.23.24.jpg"
+          src={`${process.env.APP_URL}/2024-01-19 13.23.24.jpg`}
           alt="photo"
           width="350"
           height="350"
