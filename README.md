@@ -1,8 +1,9 @@
-# Portfolio 
-This is project for my CV
+Hi! 
+This is my Portfolio project. It's about my experience, projects i worked on and muy contacts.
 
 
 It's implemented with the next technologies: TypeScript / React / Next.js / Material UI / Tailwind CSS
+
 
 To install the project run:
 ## yarn
