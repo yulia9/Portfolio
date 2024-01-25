@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "env-cmd -f .env.production next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,6 +13,7 @@
     "@mui/lab": "^5.0.0-alpha.162",
     "@mui/material": "^5.15.6",
     "copy-to-clipboard": "^3.3.3",
+    "env-cmd": "^10.1.0",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
