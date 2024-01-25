@@ -34,6 +34,5 @@ body {
 footer {
   position: relative;
   height: 80px;
-  margin-top: -80px;
   background-color: rgba(153, 225, 217, 0.3);
 }
