@@ -53,7 +53,7 @@ const data = [
       "Social login implementation (using gigya service). Integration spot.im service. Work with videoplayers ",
     images: ["/NBC_TV.png", "/SYFY.png"],
     url: "https://www.syfy.com/",
-    technologies: "Javascript, HTML/CSS, Vue.js, Vuex, Nuxt.js, LESS",
+    technologies: "Javascript, HTML/CSS, Angular.js, LESS",
   },
 ];
 
