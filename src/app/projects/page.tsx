@@ -2,12 +2,6 @@ import Image from "next/image";
 import Carousel from "@/components/Carousel";
 import TimeLine from "@/components/TimeLine";
 
-const styles = {
-  main: {
-    maxWidth: "calc(100% - 364px)",
-  },
-};
-
 const data = [
   {
     date: "Jan-2023 - Nov-2023",
@@ -65,10 +59,9 @@ const data = [
 
 const Projects = () => (
   <main
-    className="flex min-h-screen flex-col items-center justify-between p-24 pr-5 text-wenge"
-    style={styles.main}
+    className="flex min-h-screen flex-col items-center justify-between p-3 pt-32 sm:pt-24 md:p-24 pr-5 text-wenge max-w-[100%] sm:max-w-[55%] md:max-w-[75%]"
   >
-    <div className="fixed top-50 right-5 z-20 bg-white">
+    <div className="fixed top-50 right-5 z-20 bg-white hidden sm:block">
       <TimeLine items={data} /> 
     </div>
     <ul>

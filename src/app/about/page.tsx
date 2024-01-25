@@ -18,8 +18,8 @@ const skills = [
 ];
 
 const About = () => (
-  <main className="flex flex-col items-center justify-between p-24 text-wenge">
-    <div className="w-4/5 text-xl">
+  <main className="flex min-h-screen flex-col items-center justify-between p-3 pt-40 sm:pt-24 md:p-24 text-wenge">
+    <div className="w-4/5 text-lg sm:text-xl">
       {aboutData.map((text) => (
         <p className="flex py-1" key={text}>
           {text}
@@ -27,8 +27,8 @@ const About = () => (
       ))}
     </div>
 
-    <h3 className="font-bold text-2xl text-crayola mt-10 mb-5">Key skills:</h3>
-    <ul className="w-4/5 text-xl list-disc">
+    <h3 className="font-bold text-2xl text-crayola mt-10 mb-5">KEY SKILLS</h3>
+    <ul className="w-4/5 text-lg sm:text-xl list-disc pb-5">
       {skills.map((skill) => (
         <li className="py-1" key={skill}>
           {skill}

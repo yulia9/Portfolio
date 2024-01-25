@@ -31,10 +31,10 @@ const Navigation = () => {
   const pathname = usePathname();
 
   return (
-    <div className="flex items-center justify-center p-5 bg-wenge border-2 border-wenge border-b-crayola fixed top-0 left-0 right-0 z-20">
-      <ul className="flex justify-around w-4/5 text-white font-bold">
+    <div className="flex items-center justify-center p-1 sm:p-4 bg-wenge border-2 border-wenge border-b-crayola fixed top-0 left-0 right-0 z-20">
+      <ul className="sm:flex text-center justify-around w-4/5 text-white font-bold">
         {links.map(({ title, href }) => (
-          <li key={href}>
+          <li key={href} className="p-1">
             <Link
               href={href}
               className={`hover:text-tiffany ${
