@@ -1,4 +1,3 @@
-# Description 
 Hi! 
 This is my Portfolio project. It's about my experience, projects i worked on and muy contacts.
 
