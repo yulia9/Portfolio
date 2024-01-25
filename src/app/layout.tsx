@@ -21,13 +21,11 @@ export default function RootLayout({
         <Navigation />
         {children}
       </body>
-      <footer className="flex items-center text-wenge text-sm justify-center">
+      <footer className="flex items-center text-wenge text-sm justify-center pb-5 pt-2">
         <div>
           <div className="text-center m-1">
-            {" "}
             I implemented this Portfolio app using technologies:
-            <span className="font-bold">
-              {" "}
+            <span className="font-bold ml-1">
               Next.js, TypeScript, React, Material UI, Tailwind CSS
             </span>
           </div>
